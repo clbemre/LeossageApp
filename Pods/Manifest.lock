@@ -1,16 +1,32 @@
 PODS:
+  - DefaultsKit (0.2.0)
+  - GestureRecognizerClosures (5.0.0)
   - ReSwift (5.0.0)
+  - SnapKit (4.0.1)
+  - SwiftDate (6.0.3)
 
 DEPENDENCIES:
+  - DefaultsKit
+  - GestureRecognizerClosures
   - ReSwift
+  - SnapKit (~> 4.0.0)
+  - SwiftDate
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - DefaultsKit
+    - GestureRecognizerClosures
     - ReSwift
+    - SnapKit
+    - SwiftDate
 
 SPEC CHECKSUMS:
+  DefaultsKit: 6c767941b2c3fe34c4d70e300e6c3b80c94964dd
+  GestureRecognizerClosures: 0dcafb45e669e7a775c840383e54b3d16983037b
   ReSwift: 628f1a9b3ee52e3b3ca2a644435472fd77afafe1
+  SnapKit: 0de968a9fec17499afa29683b05d0c775b6d1c29
+  SwiftDate: 8d4f14bf1ef68e95094511504856547bf9e3e1a6
 
-PODFILE CHECKSUM: b046e5b3aaaac06fb92db24bb055d0804bc0778e
+PODFILE CHECKSUM: b2b00f1e412bd0235b8620cb5f7c0ddc9635163a
 
 COCOAPODS: 1.7.2
