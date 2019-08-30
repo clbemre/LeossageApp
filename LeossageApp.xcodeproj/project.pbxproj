@@ -14,6 +14,9 @@
 		862E606C23198180009602FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 862E606B23198180009602FB /* Assets.xcassets */; };
 		862E606F23198180009602FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 862E606D23198180009602FB /* LaunchScreen.storyboard */; };
 		862E607A23198409009602FB /* ReSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 862E607923198409009602FB /* ReSwift.framework */; };
+		862E607C2319846D009602FB /* LApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862E607B2319846D009602FB /* LApi.swift */; };
+		862E607F231984CE009602FB /* MessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862E607E231984CE009602FB /* MessageModel.swift */; };
+		862E6081231984D7009602FB /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862E6080231984D7009602FB /* UserModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +30,9 @@
 		862E606E23198180009602FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		862E607023198180009602FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		862E607923198409009602FB /* ReSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ReSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		862E607B2319846D009602FB /* LApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LApi.swift; sourceTree = "<group>"; };
+		862E607E231984CE009602FB /* MessageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageModel.swift; sourceTree = "<group>"; };
+		862E6080231984D7009602FB /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		FDF41614FD131527AC9992B0 /* Pods-LeossageApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeossageApp.debug.xcconfig"; path = "Target Support Files/Pods-LeossageApp/Pods-LeossageApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -75,6 +81,7 @@
 			children = (
 				862E606423198180009602FB /* AppDelegate.swift */,
 				862E607823198389009602FB /* API */,
+				862E607D231984B9009602FB /* Model */,
 				862E607723198327009602FB /* ViewControllers */,
 				862E607623198311009602FB /* SupportingFiles */,
 			);
@@ -103,8 +110,18 @@
 		862E607823198389009602FB /* API */ = {
 			isa = PBXGroup;
 			children = (
+				862E607B2319846D009602FB /* LApi.swift */,
 			);
 			path = API;
+			sourceTree = "<group>";
+		};
+		862E607D231984B9009602FB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				862E6080231984D7009602FB /* UserModel.swift */,
+				862E607E231984CE009602FB /* MessageModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		884526CD4DB78F3573B07E72 /* Pods */ = {
@@ -231,8 +248,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				862E607C2319846D009602FB /* LApi.swift in Sources */,
 				862E606723198180009602FB /* ViewController.swift in Sources */,
 				862E606523198180009602FB /* AppDelegate.swift in Sources */,
+				862E6081231984D7009602FB /* UserModel.swift in Sources */,
+				862E607F231984CE009602FB /* MessageModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
