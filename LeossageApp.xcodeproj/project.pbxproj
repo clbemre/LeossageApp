@@ -3,18 +3,22 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16BE3C903C68F2B85B4A6510 /* Pods_LeossageApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59760DE1567FED0F3BDE3E53 /* Pods_LeossageApp.framework */; };
 		862E606523198180009602FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862E606423198180009602FB /* AppDelegate.swift */; };
 		862E606723198180009602FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862E606623198180009602FB /* ViewController.swift */; };
 		862E606A23198180009602FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 862E606823198180009602FB /* Main.storyboard */; };
 		862E606C23198180009602FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 862E606B23198180009602FB /* Assets.xcassets */; };
 		862E606F23198180009602FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 862E606D23198180009602FB /* LaunchScreen.storyboard */; };
+		862E607A23198409009602FB /* ReSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 862E607923198409009602FB /* ReSwift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		59760DE1567FED0F3BDE3E53 /* Pods_LeossageApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LeossageApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AE70D40807C9724C5300BD6 /* Pods-LeossageApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeossageApp.release.xcconfig"; path = "Target Support Files/Pods-LeossageApp/Pods-LeossageApp.release.xcconfig"; sourceTree = "<group>"; };
 		862E606123198180009602FB /* LeossageApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeossageApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		862E606423198180009602FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		862E606623198180009602FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,8 @@
 		862E606B23198180009602FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		862E606E23198180009602FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		862E607023198180009602FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		862E607923198409009602FB /* ReSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ReSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDF41614FD131527AC9992B0 /* Pods-LeossageApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeossageApp.debug.xcconfig"; path = "Target Support Files/Pods-LeossageApp/Pods-LeossageApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				862E607A23198409009602FB /* ReSwift.framework in Frameworks */,
+				16BE3C903C68F2B85B4A6510 /* Pods_LeossageApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5AD70DAF506ED82C9CD5D9E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				862E607923198409009602FB /* ReSwift.framework */,
+				59760DE1567FED0F3BDE3E53 /* Pods_LeossageApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		862E605823198180009602FB = {
 			isa = PBXGroup;
 			children = (
 				862E606323198180009602FB /* LeossageApp */,
 				862E606223198180009602FB /* Products */,
+				884526CD4DB78F3573B07E72 /* Pods */,
+				5AD70DAF506ED82C9CD5D9E8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				862E606423198180009602FB /* AppDelegate.swift */,
+				862E607823198389009602FB /* API */,
 				862E607723198327009602FB /* ViewControllers */,
 				862E607623198311009602FB /* SupportingFiles */,
 			);
@@ -80,6 +100,22 @@
 			path = ViewControllers;
 			sourceTree = "<group>";
 		};
+		862E607823198389009602FB /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		884526CD4DB78F3573B07E72 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FDF41614FD131527AC9992B0 /* Pods-LeossageApp.debug.xcconfig */,
+				6AE70D40807C9724C5300BD6 /* Pods-LeossageApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -87,9 +123,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 862E607323198180009602FB /* Build configuration list for PBXNativeTarget "LeossageApp" */;
 			buildPhases = (
+				24A2FA2F9A149F0D40D07DBF /* [CP] Check Pods Manifest.lock */,
 				862E605D23198180009602FB /* Sources */,
 				862E605E23198180009602FB /* Frameworks */,
 				862E605F23198180009602FB /* Resources */,
+				82B90C7A09EF6F318C436E0E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -145,6 +183,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24A2FA2F9A149F0D40D07DBF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LeossageApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82B90C7A09EF6F318C436E0E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LeossageApp/Pods-LeossageApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LeossageApp/Pods-LeossageApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LeossageApp/Pods-LeossageApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		862E605D23198180009602FB /* Sources */ = {
@@ -296,6 +376,7 @@
 		};
 		862E607423198180009602FB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDF41614FD131527AC9992B0 /* Pods-LeossageApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -314,6 +395,7 @@
 		};
 		862E607523198180009602FB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AE70D40807C9724C5300BD6 /* Pods-LeossageApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
