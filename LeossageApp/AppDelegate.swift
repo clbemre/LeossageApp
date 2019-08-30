@@ -3,7 +3,7 @@
 //  LeossageApp
 //
 //  Created by Yunus Emre Celebi on 30.08.2019.
-//  Copyright © 2019 CLevel. All rights reserved.
+//  Copyright © 2019 cLB. All rights reserved.
 //
 
 import UIKit
