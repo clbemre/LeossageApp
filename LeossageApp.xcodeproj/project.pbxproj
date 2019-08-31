@@ -10,13 +10,29 @@
 		16BE3C903C68F2B85B4A6510 /* Pods_LeossageApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59760DE1567FED0F3BDE3E53 /* Pods_LeossageApp.framework */; };
 		862E606523198180009602FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862E606423198180009602FB /* AppDelegate.swift */; };
 		862E606723198180009602FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862E606623198180009602FB /* ViewController.swift */; };
-		862E606A23198180009602FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 862E606823198180009602FB /* Main.storyboard */; };
 		862E606C23198180009602FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 862E606B23198180009602FB /* Assets.xcassets */; };
 		862E606F23198180009602FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 862E606D23198180009602FB /* LaunchScreen.storyboard */; };
 		862E607A23198409009602FB /* ReSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 862E607923198409009602FB /* ReSwift.framework */; };
 		862E607C2319846D009602FB /* LApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862E607B2319846D009602FB /* LApi.swift */; };
 		862E607F231984CE009602FB /* MessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862E607E231984CE009602FB /* MessageModel.swift */; };
 		862E6081231984D7009602FB /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862E6080231984D7009602FB /* UserModel.swift */; };
+		862E608323198975009602FB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862E608223198975009602FB /* LoginViewController.swift */; };
+		862E608523198991009602FB /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862E608423198991009602FB /* BaseViewController.swift */; };
+		862E608723198AAF009602FB /* DefaultsKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 862E608623198AAF009602FB /* DefaultsKit.framework */; };
+		862E608923198AAF009602FB /* GestureRecognizerClosures.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 862E608823198AAF009602FB /* GestureRecognizerClosures.framework */; };
+		862E608B23198AAF009602FB /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 862E608A23198AAF009602FB /* SnapKit.framework */; };
+		862E608D23198AAF009602FB /* SwiftDate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 862E608C23198AAF009602FB /* SwiftDate.framework */; };
+		862E609023198EE4009602FB /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862E608F23198EE4009602FB /* UIColor+Extensions.swift */; };
+		862E60962319942D009602FB /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862E60952319942D009602FB /* AppState.swift */; };
+		862E6099231996AD009602FB /* Thunk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862E6098231996AD009602FB /* Thunk.swift */; };
+		862E609B231996C1009602FB /* createThunkMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862E609A231996C1009602FB /* createThunkMiddleware.swift */; };
+		862E60A22319BCD3009602FB /* AuthState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862E60A12319BCD3009602FB /* AuthState.swift */; };
+		862E60A42319BD05009602FB /* AuthAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862E60A32319BD05009602FB /* AuthAction.swift */; };
+		862E60A72319BD52009602FB /* AuthReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862E60A62319BD52009602FB /* AuthReducer.swift */; };
+		862E60A92319BE3E009602FB /* AppReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862E60A82319BE3E009602FB /* AppReducer.swift */; };
+		862E60AD2319BE85009602FB /* Redux.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862E60AC2319BE85009602FB /* Redux.swift */; };
+		862E60B02319C1D7009602FB /* LoginProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862E60AF2319C1D7009602FB /* LoginProvider.swift */; };
+		862E60B32319CB9C009602FB /* AppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862E60B22319CB9C009602FB /* AppManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +41,6 @@
 		862E606123198180009602FB /* LeossageApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeossageApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		862E606423198180009602FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		862E606623198180009602FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		862E606923198180009602FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		862E606B23198180009602FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		862E606E23198180009602FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		862E607023198180009602FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -33,6 +48,23 @@
 		862E607B2319846D009602FB /* LApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LApi.swift; sourceTree = "<group>"; };
 		862E607E231984CE009602FB /* MessageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageModel.swift; sourceTree = "<group>"; };
 		862E6080231984D7009602FB /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		862E608223198975009602FB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		862E608423198991009602FB /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		862E608623198AAF009602FB /* DefaultsKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DefaultsKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		862E608823198AAF009602FB /* GestureRecognizerClosures.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GestureRecognizerClosures.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		862E608A23198AAF009602FB /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		862E608C23198AAF009602FB /* SwiftDate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftDate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		862E608F23198EE4009602FB /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		862E60952319942D009602FB /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		862E6098231996AD009602FB /* Thunk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thunk.swift; sourceTree = "<group>"; };
+		862E609A231996C1009602FB /* createThunkMiddleware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = createThunkMiddleware.swift; sourceTree = "<group>"; };
+		862E60A12319BCD3009602FB /* AuthState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthState.swift; sourceTree = "<group>"; };
+		862E60A32319BD05009602FB /* AuthAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthAction.swift; sourceTree = "<group>"; };
+		862E60A62319BD52009602FB /* AuthReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthReducer.swift; sourceTree = "<group>"; };
+		862E60A82319BE3E009602FB /* AppReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReducer.swift; sourceTree = "<group>"; };
+		862E60AC2319BE85009602FB /* Redux.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Redux.swift; sourceTree = "<group>"; };
+		862E60AF2319C1D7009602FB /* LoginProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginProvider.swift; sourceTree = "<group>"; };
+		862E60B22319CB9C009602FB /* AppManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppManager.swift; sourceTree = "<group>"; };
 		FDF41614FD131527AC9992B0 /* Pods-LeossageApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeossageApp.debug.xcconfig"; path = "Target Support Files/Pods-LeossageApp/Pods-LeossageApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -41,6 +73,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				862E608723198AAF009602FB /* DefaultsKit.framework in Frameworks */,
+				862E608923198AAF009602FB /* GestureRecognizerClosures.framework in Frameworks */,
+				862E608B23198AAF009602FB /* SnapKit.framework in Frameworks */,
+				862E608D23198AAF009602FB /* SwiftDate.framework in Frameworks */,
 				862E607A23198409009602FB /* ReSwift.framework in Frameworks */,
 				16BE3C903C68F2B85B4A6510 /* Pods_LeossageApp.framework in Frameworks */,
 			);
@@ -52,6 +88,10 @@
 		5AD70DAF506ED82C9CD5D9E8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				862E608623198AAF009602FB /* DefaultsKit.framework */,
+				862E608823198AAF009602FB /* GestureRecognizerClosures.framework */,
+				862E608A23198AAF009602FB /* SnapKit.framework */,
+				862E608C23198AAF009602FB /* SwiftDate.framework */,
 				862E607923198409009602FB /* ReSwift.framework */,
 				59760DE1567FED0F3BDE3E53 /* Pods_LeossageApp.framework */,
 			);
@@ -80,6 +120,9 @@
 			isa = PBXGroup;
 			children = (
 				862E606423198180009602FB /* AppDelegate.swift */,
+				862E608E23198ED5009602FB /* Extensions */,
+				862E60B12319CB89009602FB /* Manager */,
+				862E60AB2319BE7C009602FB /* Redux */,
 				862E607823198389009602FB /* API */,
 				862E607D231984B9009602FB /* Model */,
 				862E607723198327009602FB /* ViewControllers */,
@@ -91,7 +134,6 @@
 		862E607623198311009602FB /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
-				862E606823198180009602FB /* Main.storyboard */,
 				862E607023198180009602FB /* Info.plist */,
 				862E606D23198180009602FB /* LaunchScreen.storyboard */,
 				862E606B23198180009602FB /* Assets.xcassets */,
@@ -102,6 +144,8 @@
 		862E607723198327009602FB /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				862E608423198991009602FB /* BaseViewController.swift */,
+				862E608223198975009602FB /* LoginViewController.swift */,
 				862E606623198180009602FB /* ViewController.swift */,
 			);
 			path = ViewControllers;
@@ -111,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				862E607B2319846D009602FB /* LApi.swift */,
+				862E60AF2319C1D7009602FB /* LoginProvider.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -122,6 +167,69 @@
 				862E607E231984CE009602FB /* MessageModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		862E608E23198ED5009602FB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				862E608F23198EE4009602FB /* UIColor+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		862E60942319941C009602FB /* State */ = {
+			isa = PBXGroup;
+			children = (
+				862E60952319942D009602FB /* AppState.swift */,
+				862E60A12319BCD3009602FB /* AuthState.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		862E609723199691009602FB /* ReSwiftThunk */ = {
+			isa = PBXGroup;
+			children = (
+				862E6098231996AD009602FB /* Thunk.swift */,
+				862E609A231996C1009602FB /* createThunkMiddleware.swift */,
+			);
+			path = ReSwiftThunk;
+			sourceTree = "<group>";
+		};
+		862E60A02319BCA4009602FB /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				862E60A32319BD05009602FB /* AuthAction.swift */,
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
+		862E60A52319BD3A009602FB /* Reducer */ = {
+			isa = PBXGroup;
+			children = (
+				862E60A82319BE3E009602FB /* AppReducer.swift */,
+				862E60A62319BD52009602FB /* AuthReducer.swift */,
+			);
+			path = Reducer;
+			sourceTree = "<group>";
+		};
+		862E60AB2319BE7C009602FB /* Redux */ = {
+			isa = PBXGroup;
+			children = (
+				862E609723199691009602FB /* ReSwiftThunk */,
+				862E60942319941C009602FB /* State */,
+				862E60A02319BCA4009602FB /* Actions */,
+				862E60A52319BD3A009602FB /* Reducer */,
+				862E60AC2319BE85009602FB /* Redux.swift */,
+			);
+			path = Redux;
+			sourceTree = "<group>";
+		};
+		862E60B12319CB89009602FB /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				862E60B22319CB9C009602FB /* AppManager.swift */,
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 		884526CD4DB78F3573B07E72 /* Pods */ = {
@@ -195,7 +303,6 @@
 			files = (
 				862E606F23198180009602FB /* LaunchScreen.storyboard in Resources */,
 				862E606C23198180009602FB /* Assets.xcassets in Resources */,
-				862E606A23198180009602FB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,10 +355,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				862E608323198975009602FB /* LoginViewController.swift in Sources */,
+				862E60A22319BCD3009602FB /* AuthState.swift in Sources */,
+				862E60A72319BD52009602FB /* AuthReducer.swift in Sources */,
+				862E60B02319C1D7009602FB /* LoginProvider.swift in Sources */,
+				862E60962319942D009602FB /* AppState.swift in Sources */,
 				862E607C2319846D009602FB /* LApi.swift in Sources */,
 				862E606723198180009602FB /* ViewController.swift in Sources */,
+				862E609023198EE4009602FB /* UIColor+Extensions.swift in Sources */,
+				862E60A42319BD05009602FB /* AuthAction.swift in Sources */,
+				862E609B231996C1009602FB /* createThunkMiddleware.swift in Sources */,
+				862E60A92319BE3E009602FB /* AppReducer.swift in Sources */,
 				862E606523198180009602FB /* AppDelegate.swift in Sources */,
+				862E6099231996AD009602FB /* Thunk.swift in Sources */,
 				862E6081231984D7009602FB /* UserModel.swift in Sources */,
+				862E608523198991009602FB /* BaseViewController.swift in Sources */,
+				862E60B32319CB9C009602FB /* AppManager.swift in Sources */,
+				862E60AD2319BE85009602FB /* Redux.swift in Sources */,
 				862E607F231984CE009602FB /* MessageModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,14 +379,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		862E606823198180009602FB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				862E606923198180009602FB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		862E606D23198180009602FB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
